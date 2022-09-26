@@ -1,0 +1,13 @@
+Top 10 genre liked:
+                                                    liked  occurency
+genre                                                               
+Action|Adventure|Animation|Drama|Fantasy|Horror...    1.0       23.0
+Animation|Biography|Drama|History|Mystery|War         1.0       23.0
+Action|Crime|Drama|Film-Noir                          1.0       16.0
+Adventure|Biography|Drama|History|Sport               1.0       16.0
+Comedy|Drama|Family|Fantasy|Short                     1.0       15.0
+Adventure|Animation|Drama|Family|Thriller             1.0       10.0
+Drama|Music|Musical|Romance|Thriller                  1.0       10.0
+Adventure|Documentary|Drama|News                      1.0        9.0
+Documentary|Drama|Mystery                             1.0        9.0
+Action|Animation|Romance|Sci-Fi|Sport|Thriller        1.0        8.0
