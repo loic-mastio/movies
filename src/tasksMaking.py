@@ -25,6 +25,7 @@ class TaskMaker():
         distribution["occurency"] = distribution["rating"].map(self.__ratingsDF['rating'].value_counts())
         #Count but return percentage when multiply by 100 the value
         distribution["percentage"] = distribution["rating"].map(self.__ratingsDF['rating'].value_counts(normalize=True) * 100)
+        distribution = distribution.sort_values(by=["percentage"], ascending=False)
         saveTaskResult("../output/firstTasks/1-3-4.txt", distribution, "Distribution de notes:\n")
         savePlot("../output/firstTasks/plotOccurency.png", distribution.plot(x="rating", y="occurency", kind="bar"))
         savePlot("../output/firstTasks/plotPercentage.png", distribution.plot(x="rating", y="percentage", kind="bar"))
