@@ -1,3 +1,0 @@
-Résultats avant / après index : 
-Avant Index: Time Lapsed = 0:0:0.00011801719665527344
-Après Index: Time Lapsed = 0:0:0.0003752708435058594

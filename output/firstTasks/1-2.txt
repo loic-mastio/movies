@@ -1,2 +1,0 @@
-Nombre d'users figurant dans la base de données :
-71707

@@ -14,9 +14,9 @@ class Init():
         self.bdd.storeData()
         self.bdd.cleanData()
     def launchTasks(self):
-        init.tasks = TaskMaker(init.bdd)
-        init.tasks.Task()
-        init.bdd.close()
+        self.tasks = TaskMaker(self.bdd)
+        self.tasks.Task()
+        self.bdd.close()
 
 if __name__ == '__main__':
     init = Init()

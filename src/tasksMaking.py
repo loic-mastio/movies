@@ -40,7 +40,7 @@ class TaskMaker():
         #merge with movie DF
         self.__moviesDF = pd.merge(self.__moviesDF, meanLiked, on=["movie_id"])
         #group DF by genre and get liked mean value, sort by Desc and get only 10 values
-        meanRatingGenre = self.__moviesDF[["genre", "liked"]].groupby(["genre"]).mean().sort_values(by=["liked"], ascending=False).head(10)
+        meanRatingGenre = self.__moviesDF[["genre", "liked", "occurency"]].groupby(["genre"]).mean().sort_values(by=["liked", "occurency"], ascending=False).head(10)
         saveTaskResult("../output/secondTasks/2-2.txt", meanRatingGenre, "Top 10 genre liked:\n")
     #3.1
     def topMovieLiked(self):
