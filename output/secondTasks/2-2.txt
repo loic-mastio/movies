@@ -1,0 +1,13 @@
+Top 10 genre liked:
+                                               liked
+genre                                               
+Action|Film-Noir|Mystery                         1.0
+Animation|Biography|Documentary|News|War         1.0
+Adventure|Animation|Crime|Mystery                1.0
+Adventure|Animation|Crime|Family|Mystery         1.0
+Documentary|Drama|Western                        1.0
+Animation|Biography|Drama|History|Mystery|War    1.0
+Animation|Biography|Drama                        1.0
+Documentary|Drama|Sci-Fi                         1.0
+Documentary|Drama|Romance|Thriller               1.0
+Documentary|Drama|Romance                        1.0
